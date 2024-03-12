@@ -1,6 +1,6 @@
 import { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-const Dasboard = lazy(() => import("./pages/dashboard"));
+const Dasboard = lazy(() => import("./pages/attendance"));
 const DefaultLayout = lazy(() => import("./layouts/default"));
 const App = () => {
   return (

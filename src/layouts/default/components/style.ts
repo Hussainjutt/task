@@ -49,8 +49,8 @@ const StyledListItemIcon = styled("span")<{ active: boolean }>(
 const StyledList = styled(List)({
   padding: "0 .7rem",
   position: "relative",
-  minHeight: "calc(100vh - 260px)",
-  maxHeight: "calc(100vh - 260px)",
+  minHeight: "calc(100dvh - 260px)",
+  maxHeight: "calc(100dvh - 260px)",
   overflowY: "auto",
   overflowX: "hidden",
 });

@@ -31,7 +31,7 @@ function createRandomProject() {
   const formattedDate = formatDate(randomDate);
   return {
     status: faker.helpers.arrayElement(["isPending", "inProgress"]),
-    project_name: faker.lorem.words(),
+    project_name: faker.lorem.words().split(" ").slice(0, 2).join(" "),
     image: faker.image.avatarLegacy(),
     date: `Created ${formattedDate}`,
   };
@@ -39,6 +39,7 @@ function createRandomProject() {
 const projects = faker.helpers.multiple(createRandomProject, {
   count: 4,
 });
+
 const Projects = () => {
   const width = useWindowWidth();
   return (
