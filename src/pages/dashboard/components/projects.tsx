@@ -58,6 +58,7 @@ const Projects = () => {
           top: 0,
           bottom: 0,
           left: "12px",
+          display: { sm: "block", xs: "none" },
         }}
         orientation="vertical"
       />
