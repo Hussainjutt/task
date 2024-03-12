@@ -6,13 +6,13 @@
 
 ## Installing / Getting started
 
-Run this commond for install packages.
+Run this command for install packages.
 
 ```shell
 npm install
 ```
 
-Run this commond for run the packages.
+Run this command for run the packages.
 
 ```shell
 npm run dev
