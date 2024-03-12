@@ -1,0 +1,52 @@
+:root {
+  font-family: "Nunito Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eeedff !important;
+}
+input {
+  font-family: "Nunito Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #e2ecee;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #e2ecee;
+}
+
+::-webkit-scrollbar-track:active {
+  background-color: #e2ecee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #4365d0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b72ea;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #4f77f5;
+}
